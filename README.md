@@ -29,6 +29,7 @@ FRONTEND/
 │   │   ├── complaints/    # complaint components
 │   │   ├── dashboard/     # Admin dashboard components
 │   │   ├── Meeting/       # Meeting components
+│   │   ├── projects/      # Projects components
 │   │   ├── userdashboard/ # User dashboard components
 │   │   └── MobileSidebar.jsx 
 │   │ 
@@ -75,6 +76,8 @@ FRONTEND/
 * "/meetings" => **Meeting Page**
 * "/chat" => **Chat Page**
 * "/complaints" => **Complaint Page**
+* "/projects" => **Projects Page**
+
 
 ## 🧩 Features Overview
 

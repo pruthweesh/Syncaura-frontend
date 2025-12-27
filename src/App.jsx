@@ -48,12 +48,10 @@ export default function App() {
 
           }
         />
-
-        {/* Other pages with default Topbar */}
         <Route
           path="/projects"
           element={
-            <MainLayout TopbarComponent={Topbar}>
+            <MainLayout TopbarComponent={Header} SideBar={MobileSidebar}>
               <Projects />
             </MainLayout>
           }
@@ -82,6 +80,7 @@ export default function App() {
             </MainLayout>
           }
         />
+
         <Route
           path="/complaints"
           element={

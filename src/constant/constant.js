@@ -640,3 +640,116 @@ export const COMPLAINTS = [
     status: "Resolved",
   },
 ];
+
+
+export const PROJECTS = [
+  {
+    id: 1,
+    title: "Q4 Marketing Plan",
+    department: "Marketing Dept.",
+    priority: "Completed",
+    progress: 100,
+    dueDate: "2025-11-01T00:00:00.000Z",
+    avatars: [
+      "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
+      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+      "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+      "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    ],
+  },
+  {
+    id: 2,
+    title: "Website Redesign",
+    department: "UI/UX Team",
+    priority: "Ongoing",
+    progress: 40,
+    dueDate: "2025-11-05T00:00:00.000Z",
+    avatars: [
+      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+      "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
+    ],
+  },
+  {
+    id: 3,
+    title: "Mobile App MVP",
+    department: "Product Team",
+    priority: "Critical",
+    progress: 65,
+    dueDate: "2025-11-10T00:00:00.000Z",
+    avatars: [
+      "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+      "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+      "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
+      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+    ],
+  },
+  {
+    id: 4,
+    title: "SEO Optimization",
+    department: "Growth Team",
+    priority: "Ongoing",
+    progress: 55,
+    dueDate: "2025-11-12T00:00:00.000Z",
+    avatars: [
+      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+    ],
+  },
+  {
+    id: 5,
+    title: "Customer Feedback Review",
+    department: "Support Team",
+    priority: "Completed",
+    progress: 100,
+    dueDate: "2025-11-15T00:00:00.000Z",
+    avatars: [
+      "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
+      "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+    ],
+  },
+  {
+    id: 6,
+    title: "Backend API Refactor",
+    department: "Engineering",
+    priority: "On Hold",
+    progress: 20,
+    dueDate: "2025-11-18T00:00:00.000Z",
+    avatars: [
+      "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+      "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
+      "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+    ],
+  },
+  {
+    id: 7,
+    title: "Sales Funnel Analysis",
+    department: "Sales Team",
+    priority: "Ongoing",
+    progress: 45,
+    dueDate: "2025-11-20T00:00:00.000Z",
+    avatars: [
+      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+      "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    ],
+  },
+  {
+    id: 8,
+    title: "Cloud Cost Optimization",
+    department: "DevOps",
+    priority: "Critical",
+    progress: 70,
+    dueDate: "2025-11-25T00:00:00.000Z",
+    avatars: [
+      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+      "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
+      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+      "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+      "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    ],
+  },
+];
+
