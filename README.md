@@ -24,6 +24,7 @@ FRONTEND/
 │   ├── assets/            # Icons, images, and other static assets
 │   │
 │   ├── components/        # Reusable UI components
+│   │   ├── AttendanceLeave/   #Attendance Leave component        # 
 │   │   ├── auth/          # Authentication components (SignIn, SignUp)
 │   │   ├── chats/         # Chat components
 │   │   ├── complaints/    # complaint components
@@ -77,6 +78,7 @@ FRONTEND/
 * "/chat" => **Chat Page**
 * "/complaints" => **Complaint Page**
 * "/projects" => **Projects Page**
+* "/attendance-leave" => **Attendance Leave Page**
 
 
 ## 🧩 Features Overview

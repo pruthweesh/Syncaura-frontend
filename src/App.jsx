@@ -6,7 +6,6 @@ import Tasks from "./pages/Tasks";
 import Meetings from "./pages/Meetings";
 import Chat from "./pages/Chat";
 import Documents from "./pages/Documents";
-import Attendance from "./pages/Attendance";
 import UserDashboard from "./pages/UserDashboard";
 import Dashboard from "./pages/Dashboard";
 import SignIn from "./pages/SignIn";
@@ -16,6 +15,7 @@ import Header from "./components/Meeting/Header/Header";
 import MobileSidebar from "./components/MobileSidebar";
 import Sidebar from "./components/userdashboard/Sidebar/Sidebar";
 import Complaints from "./pages/Complaints";
+import AttendanceLeave from "./pages/AttendanceLeave";
 
 export default function App() {
   return (
@@ -57,6 +57,14 @@ export default function App() {
           }
         />
         <Route
+          path="/attendance-leave"
+          element={
+            <MainLayout TopbarComponent={Header} SideBar={MobileSidebar}>
+              <AttendanceLeave />
+            </MainLayout>
+          }
+        />
+        <Route
           path="/tasks"
           element={
             <MainLayout TopbarComponent={Topbar}>
@@ -94,14 +102,6 @@ export default function App() {
           element={
             <MainLayout TopbarComponent={Topbar}>
               <Documents />
-            </MainLayout>
-          }
-        />
-        <Route
-          path="/attendance"
-          element={
-            <MainLayout TopbarComponent={Topbar}>
-              <Attendance />
             </MainLayout>
           }
         />

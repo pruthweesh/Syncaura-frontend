@@ -59,6 +59,9 @@
 @theme {
   --font-poppin-reg: "Poppine-reg", sans-serif;
   --font-anta: "Anta", sans-serif;
+  --breakpoint-xs: 370px;
+
+
 }
 
 .h1-poppin {

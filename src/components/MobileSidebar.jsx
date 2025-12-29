@@ -29,7 +29,7 @@ const menuItems = [
     { label: "Documents & Reports", icon: FileText, path: "/documents", count: 2 },
     { label: "Complaints", icon: AlertTriangle, path: "/complaints", count: 0 },
     { label: "Notice", icon: Megaphone, path: "/notice", count: 3 },
-    { label: "Attendance & Leave", icon: Clock, path: "/attendance", count: 0 },
+    { label: "Attendance & Leave", icon: Clock, path: "/attendance-leave", count: 0 },
     { label: "Settings", icon: Settings, path: "/settings", count: 0 },
 ];
 

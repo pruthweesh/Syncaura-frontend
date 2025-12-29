@@ -639,6 +639,7 @@ export const COMPLAINTS = [
     date: "2024-08-27T04:36:51.998Z",
     status: "Resolved",
   },
+  
 ];
 
 
@@ -750,6 +751,93 @@ export const PROJECTS = [
       "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
       "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
     ],
+  },
+];
+
+export const leaveHistory = [
+  {
+    startDate: "2025-12-15T00:00:00.000Z",
+    endDate: "2025-12-18T00:00:00.000Z",
+    type: "Casual",
+    reason: "Semester Exams",
+    status: "Approved",
+  },
+  {
+    startDate: "2025-10-01T00:00:00.000Z",
+    endDate: "2025-10-02T00:00:00.000Z",
+    type: "Sick",
+    reason: "High Fever",
+    status: "Pending",
+  },
+  {
+    startDate: "2025-09-15T00:00:00.000Z",
+    endDate: "2025-09-16T00:00:00.000Z",
+    type: "Casual",
+    reason: "Family Event",
+    status: "Approved",
+  },
+  {
+    startDate: "2025-12-20T00:00:00.000Z",
+    endDate: "2025-12-22T00:00:00.000Z",
+    type: "Earned",
+    reason: "Planned Vacation",
+    status: "Approved",
+  },
+  {
+    startDate: "2026-01-10T00:00:00.000Z",
+    endDate: "2026-01-10T00:00:00.000Z",
+    type: "Casual",
+    reason: "Official Documentation Work",
+    status: "Rejected",
+  },
+  {
+    startDate: "2025-10-08T00:00:00.000Z",
+    endDate: "2025-10-08T00:00:00.000Z",
+    type: "Casual",
+    reason: "Client Appointment",
+    status: "Approved",
+  },
+  {
+    startDate: "2025-11-25T00:00:00.000Z",
+    endDate: "2025-11-25T00:00:00.000Z",
+    type: "Casual",
+    reason: "Home Maintenance Work",
+    status: "Pending",
+  },
+  {
+    startDate: "2025-11-15T00:00:00.000Z",
+    endDate: "2025-11-16T00:00:00.000Z",
+    type: "Earned",
+    reason: "Personal Skill Development Program",
+    status: "Approved",
+  },
+  {
+    startDate: "2025-11-05T00:00:00.000Z",
+    endDate: "2025-11-05T00:00:00.000Z",
+    type: "Casual",
+    reason: "Examination Attendance",
+    status: "Rejected",
+  },
+  {
+    startDate: "2025-08-12T00:00:00.000Z",
+    endDate: "2025-08-13T00:00:00.000Z",
+    type: "Sick",
+    reason: "Food Poisoning",
+    status: "Approved",
+  },
+  {
+    startDate: "2025-07-20T00:00:00.000Z",
+    endDate: "2025-07-22T00:00:00.000Z",
+    type: "Casual",
+    reason: "Outstation Travel",
+    status: "Approved",
+  },
+  {
+    startDate: "2025-06-05T00:00:00.000Z",
+    endDate: "2025-06-05T00:00:00.000Z",
+    type: "Earned",
+    reason: "Personal Work",
+    status: "Pending",
   },
 ];
 
