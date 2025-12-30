@@ -32,6 +32,7 @@ FRONTEND/
 │   │   ├── Meeting/       # Meeting components
 │   │   ├── projects/      # Projects components
 │   │   ├── userdashboard/ # User dashboard components
+│   │   ├── SupportChatbot.jsx # Chatbot Component
 │   │   └── MobileSidebar.jsx 
 │   │ 
 │   ├── constant/          # constant reusable folder

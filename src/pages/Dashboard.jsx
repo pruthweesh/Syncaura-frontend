@@ -11,6 +11,7 @@ import Tabs from "../components/dashboard/Main/SubMain/Right/Tabs";
 import ProjectItem from "../components/dashboard/Main/SubMain/Right/ProjectItem";
 import TaskStatCard from "../components/dashboard/Main/SubMain/Left/TaskStatCard";
 import DashboardCircles from "../components/dashboard/Main/SubMain/Left/DashboardCircles";
+import SupportChatbot from "../components/SupportChatbot";
 
 const Dashboard = () => {
   const { isDark } = useThemeStore();
@@ -284,6 +285,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
+      <SupportChatbot/>
     </div>
   );
 };

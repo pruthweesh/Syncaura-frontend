@@ -1,5 +1,6 @@
 import { useState } from "react";
 import useThemeStore from "../store/useThemeStore";
+import SupportChatbot from "../components/SupportChatbot";
 
 export default function MainLayout({ children, TopbarComponent, SideBar }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -17,6 +18,9 @@ export default function MainLayout({ children, TopbarComponent, SideBar }) {
           {children}
        
       </div>
+     <div className="relative">
+       <SupportChatbot/>
+     </div>
     </div>
   );
 }
