@@ -24,7 +24,8 @@ FRONTEND/
 │   ├── assets/            # Icons, images, and other static assets
 │   │
 │   ├── components/        # Reusable UI components
-│   │   ├── AttendanceLeave/   #Attendance Leave component        # 
+│   │   ├── admin        #admin component   
+│   │   ├── AttendanceLeave/   #Attendance Leave component
 │   │   ├── auth/          # Authentication components (SignIn, SignUp)
 │   │   ├── chats/         # Chat components
 │   │   ├── complaints/    # complaint components
@@ -34,6 +35,7 @@ FRONTEND/
 │   │   ├── notice/       # Notice components
 │   │   ├── projects/      # Projects components
 │   │   ├── userdashboard/ # User dashboard components
+│   │   ├── FilterDropdown.jsx # animated reusable dropdown component
 │   │   ├── SupportChatbot.jsx # Chatbot Component
 │   │   └── MobileSidebar.jsx 
 │   │ 
