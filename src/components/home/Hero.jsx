@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section id="home" className="w-full pt-6 md:pt-16 pb-6 md:pb-8" style={{ backgroundColor: 'var(--bg-primary)' }}>
       <div className="max-w-7xl mx-auto px-4 md:px-6">
-        <div className="grid lg:grid-cols-2 gap-8 items-center">
+        <div className="grid md:grid-cols-2 gap-8 items-center">
           {/* Text Content */}
           <div className="space-y-4 md:space-y-6">
             {/* Mobile: Single line | Desktop: Line break */}
@@ -54,8 +54,8 @@ const Hero = () => {
           </div>
 
           {/* Image */}
-          <div className="flex justify-center  lg:justify-start mt-6 pt- md:mt-0">
-            <div className="w-full max-w-sm lg:max-w-xl">
+          <div className="flex justify-center md:justify-start mt-6 md:mt-0">
+            <div className="w-full max-w-sm md:max-w-xl">
               <img
                 src={heroTeam}
                 alt="Team collaboration illustration"
